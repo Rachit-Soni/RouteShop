@@ -1,22 +1,113 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap');
+
+
+nav {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  background: black;
+  color: white;
+  opacity: 0.9;
+  position: sticky;
+    
+}
+
+.nav-links{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  list-style: none;
+  font-family: 'Lato', sans-serif; /* Heading Font */
+  margin-right: 20px;
+}
+
+.navStyle{
+  color: white;
+  text-decoration: none;
+  padding: 12px 18px;
+  background-color: gray;
+  display: inline-block; 
+  border-radius: 7px; 
+}
+
+.homeStyle{
+}
+
+.homeHeadingStyle{
+
+  background-color: skyblue;
+}
+
+
+h3{
+  margin-left: 60px;
+}
+
+.itemDetailsHeader{
+  font-family: 'Lato', sans-serif; /* Heading Font */
+  text-align: center;
+  color: grey;
+  
+}
+.shopItemStyle{
+
+  width: 100%;
+    margin: 2% auto;
+    border: 1 px solid #eee;
+    padding: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif; /* non-heading font*/
+    
+
+    
+}
+
+.shopHeadingStyle{
+  margin-top: 35px;
+  margin-left: 80px;
+  font-family: 'Lato', sans-serif; /* Heading Font */
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.aboutHeading{
+color: grey;
+text-align: center;
+font-family: 'Lato', sans-serif; /* Heading Font */
+margin-top: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.aboutDetails{
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 90px;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif; /* non-heading font*/
+  text-align: center;
 }
 
-.App-link {
-  color: #09d3ac;
+.aboutDetailsTop{
+  text-align: left;
+  margin-top: 70px;
+  margin-left: 90px;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+
+}
+
+.homeImg{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.homeHeading{
+  font-family: 'Lato', sans-serif; /* Heading Font */
+  text-align: center;
+  color: grey;
+
 }

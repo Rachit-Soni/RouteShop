@@ -29,7 +29,7 @@ return (
               <div className="shopItemStyle" to={'./Shop/${item.price}'}>{item.name}<br /><br />
                {item.description}<br /><br />
                <p>Price {item.price} </p>
-               
+                     
               </div> 
           </h3>
       ))} 

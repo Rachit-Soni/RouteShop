@@ -61,6 +61,7 @@ h3{
     color: black;
     font-family: 'Montserrat', sans-serif; /* non-heading font*/
     
+    
 
     
 }
@@ -109,5 +110,29 @@ margin-top: 50px;
   font-family: 'Lato', sans-serif; /* Heading Font */
   text-align: center;
   color: grey;
+  font-size: 50px;
+  line-height: 1.4;
+  letter-spacing: 0.1rem;
+  margin-top: 50px;
 
+}
+
+.imageSlider{
+
+  width: 98%;
+  height: 60%;
+  position: absolute;
+  left: 50%;
+  right:50%;
+  transform: translate(-50%);
+  background-image: url('https://images.pexels.com/photos/52527/dentist-pain-borowac-cure-52527.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+  background-size: 100% 100%;
+  box-shadow: 1px 2px 10px 5px gray;
+  animation: slider 14s infinite linear; 
+}
+
+@keyframes slider {
+      0% {background-image: url('https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
+      35% {background-image: url('https://images.pexels.com/photos/2182978/pexels-photo-2182978.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
+      75% {background-image: url('https://images.pexels.com/photos/305568/pexels-photo-305568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');}
 }
